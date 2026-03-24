@@ -70,6 +70,7 @@ public class Mascota {
     public boolean estaEnPesoNormal(double pesoMin, double pesoMax) {
         return peso >= pesoMin && peso <= pesoMax;
     }
+    
 
     public String toString() {
     return "Mascota{" +
